@@ -1,2 +1,2 @@
 # estimativa_pi
-# calcula pi montecarlo method
+# calcula pi usando montecarlo method

@@ -73,9 +73,9 @@ plt.show()
 xlim([-2.1, 2.1])
 ylim([0, 1.6])
 
-title('basic_plot', fontsize=5)
+title('basic_plot', fontsize=15)
 
-ylabel('$f(x)$', fontsize=5)
-xlabel('$x$', fontsize=5)
+ylabel('$f(x)$', fontsize=15)
+xlabel('$x$', fontsize=15)
 
 # savefig('pontos-aleatorios.pdf')
