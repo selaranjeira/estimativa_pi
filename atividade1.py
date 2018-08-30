@@ -44,7 +44,7 @@ d = arange(-4.0, 4.0, 0.01)
 
 Pi = (b - a) * c * float(n) / N
 
-print Pi
+print (Pi)
 
 
 #======================= cores definidas ===============================
@@ -62,18 +62,18 @@ Turquesa = "#40E0D0"
 Roxo = "#800080"
 GreenLine = "#008080"
 #==========================================================================
-figure(0)
-rc('text', usetex=True)
+figure('basic_plot')
+#rc('text', usetex=True)
 
 plot(d, fv(d), color=OrangeLine, lw=2.0)
 plot(xv1, yv1, 'o', markersize=2.5, color=Turquesa)
-plot(xv2, yv2, 'o', markersize=2.5, color=RedLine2)
+plot(xv2, yv2, 'o', markersize=2.5, color=BlueLine2)
 plt.show()
 
 xlim([-2.1, 2.1])
 ylim([0, 1.6])
 
-title(r'Estimativa do $\pi$', fontsize=15)
+title('basic_plot', fontsize=15)
 
 ylabel('$f(x)$', fontsize=15)
 xlabel('$x$', fontsize=15)
