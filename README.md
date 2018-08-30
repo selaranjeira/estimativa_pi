@@ -2,3 +2,4 @@
 
 # calcula pi usando montecarlo method
 
+test
