@@ -67,15 +67,15 @@ figure('basic_plot')
 
 plot(d, fv(d), color=OrangeLine, lw=2.0)
 plot(xv1, yv1, 'o', markersize=2.5, color=Turquesa)
-plot(xv2, yv2, 'o', markersize=2.5, color=RedLine2)
+plot(xv2, yv2, 'o', markersize=2.5, color=BlueLine2)
 plt.show()
 
 xlim([-2.1, 2.1])
 ylim([0, 1.6])
 
-title('basic_plot', fontsize=15)
+title('basic_plot', fontsize=5)
 
-ylabel('$f(x)$', fontsize=15)
-xlabel('$x$', fontsize=15)
+ylabel('$f(x)$', fontsize=5)
+xlabel('$x$', fontsize=5)
 
 # savefig('pontos-aleatorios.pdf')
